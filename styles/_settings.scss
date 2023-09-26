@@ -1,0 +1,38 @@
+@import './fonts';
+@import './variables';
+
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-size: $fz;
+  font-family: $font-family;
+  font-weight: $fw500;
+  &.open-menu {
+    overflow-y: hidden;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: rgba($color: #000000, $alpha: 0.4);
+    }
+  }
+}
+.container {
+  width: $container-w;
+  padding: $container-padding;
+  max-width: 100%;
+  margin: 0 auto;
+}
+img {
+  vertical-align: baseline;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROOM | HOME</title>
+    <link rel="stylesheet" href="styles/vendor/normalize.css" />
+    <link rel="stylesheet" href="styles/vendor/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  </head>
+  <body>
+
+    <header class="header" id="header">
+
+      <img class="header__logo" src="./images/logo.svg" alt="logo" />
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">home</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">shop</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">about</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="header__burger" type="button">
+        <span></span>
+      </button>
+
+    </header>
+
+    <div class="grid">
+
+      <div class="grid__image-hero image-hero">
+
+        <div class="button-controls image-hero__button-controls">
+          <button class="button-controls__btn button-controls__btn_prev" type="button">
+            <img src="./images/icon-angle-left.svg" alt="angle left icon" />
+          </button>
+          <button class="button-controls__btn button-controls__btn_next" type="button">
+            <img src="./images/icon-angle-right.svg" alt="angle right icon" />
+          </button>
+        </div>
+
+      </div>
+
+      <div class="grid__shop-now shop-now">
+        <div class="shop-now__wrapper">
+
+          <h1 class="shop-now__title"></h1>
+          <p class="shop-now__description"></p>
+          
+          <a href="/" class="shop-now__link"
+            ><span>Shop now</span> <img src="./images/icon-arrow.svg" alt="icon arrow"
+          /></a>
+
+          <div class="button-controls shop-now__button-controls">
+            <button class="button-controls__btn button-controls__btn_prev" type="button">
+              <img src="./images/icon-angle-left.svg" alt="angle left icon" />
+            </button>
+            <button class="button-controls__btn button-controls__btn_next" type="button">
+              <img src="./images/icon-angle-right.svg" alt="angle right icon" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__about-image-dark">
+        <img src="./images/image-about-dark.jpg" alt="image about dark" />
+      </div>
+
+      <div class="grid__about-text about-text">
+        <div class="about-text__wrapper">
+          <h2 class="about-text__title">About our furniture</h2>
+
+          <p class="about-text__description">
+            Our multifunctional collection blends design and function to suit your individual taste.
+            Make each room unique, or pick a cohesive theme that best express your interests and
+            what inspires you. Find the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to help you create your
+            dream space.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid__about-image-light">
+        <img src="./images/image-about-light.jpg" alt="image about light" />
+      </div>
+    </div>
+
+    <script src="scripts/app.js" defer></script>
+    <script src="scripts/slider.js" defer></script>
+  </body>
+</html>
