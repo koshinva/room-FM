@@ -5,7 +5,7 @@
 
 [Задание - Room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq "https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq")
 
-В сноске:  
+Preview:
 ![Скриншот выполненного задания][logo]
 
 [logo]: ./images/screenshot1.webp "Скриншот 1"
